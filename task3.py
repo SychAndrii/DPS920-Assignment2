@@ -10,6 +10,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import accuracy_score
 
+
+# Upload them locally, since GitHub does not allow large files to be stored in the cloud.
 train_data = pd.read_csv("mnist_train.csv")
 test_data = pd.read_csv("mnist_test.csv")
 
