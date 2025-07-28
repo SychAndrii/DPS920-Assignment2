@@ -5,6 +5,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_absolu
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 
+# Upload it locally since GitHub does not allow large files to be stored in the cloud.
 data = pd.read_csv(r'DPS920-Assignment2\house_price.csv')
 
 X = data[["size", "bedroom"]]
